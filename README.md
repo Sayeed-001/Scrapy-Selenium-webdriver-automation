@@ -1,8 +1,8 @@
-# Scrapy-Selenium-webdriver-automation
+### Scrapy-Selenium-webdriver-automation
 
-### NOTE: Before execution, Register as a new user on internshala.com to access the login credentials i.e your registered username and password. To use Selenium, you'll also need Chrome's webdriver. This Program does not install chromedriver, if you required go to https://chromedriver.chromium.org/downloads check your OS and download from the link.
+#### NOTE: Before execution, Register as a new user on internshala.com to access the login credentials i.e your registered username and password. To use Selenium, you'll also need Chrome's webdriver. This Program does not install chromedriver, if you required go to https://chromedriver.chromium.org/downloads check your OS and download from the link.
 
-###  Make changes in PARAMATERS.PY file where you need to mention your chromedriver path, your internshala username, internshala password to attempt a login to website with your credentials and at last you have to mention the job_category which you want to search and to acquire details in csv, json or xml formats.
+Make changes in PARAMATERS.PY file where you need to mention your chromedriver path, your internshala username, internshala password to attempt a login to website with your credentials and at last you have to mention the job_category which you want to search and to acquire details in csv, json or xml formats.
 
                                     ## InternshalaBot
 This is a Scrapy project to scrape data of internship jobs opening on website https://internshala.com. In this code of example, Selenium webdriver is used to attempt a login on a website with your login credentials and search the internship Category along scrapy framework implemented to crawl and fetch the data.
