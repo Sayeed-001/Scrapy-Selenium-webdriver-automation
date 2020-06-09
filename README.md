@@ -4,8 +4,8 @@
 
 Make changes in PARAMATERS.PY file where you need to mention your chromedriver path, your internshala username, internshala password to attempt a login to website with your credentials and at last you have to mention the job_category which you want to search and to acquire details in csv, json or xml formats.
 
-                                    ## InternshalaBot
-This is a Scrapy project to scrape data of internship jobs opening on website https://internshala.com. In this code of example, Selenium webdriver is used to attempt a login on a website with your login credentials and search the internship Category along scrapy framework implemented to crawl and fetch the data.
+#### InternshalaBot
+This is a Scrapy/selenium project to scrape data of internship jobs opening on website https://internshala.com. In this code of example, Selenium webdriver is used to attempt a login on a website with your login credentials and search the internship Category along scrapy framework implemented to crawl and fetch the data.
 
 This project is only meant for educational purposes.
 
