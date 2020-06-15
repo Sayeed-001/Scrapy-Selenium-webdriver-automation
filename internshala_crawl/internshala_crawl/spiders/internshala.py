@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 import logging
 
+import numpy as np
+
 from time import sleep
 
 from internshala_crawl import paramaters

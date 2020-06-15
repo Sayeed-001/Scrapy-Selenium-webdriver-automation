@@ -7,8 +7,6 @@ This is a Scrapy/selenium project to scrape data of internship jobs opening on w
 
 Make changes in PARAMATERS.PY file where you need to mention your chromedriver path, your internshala username, internshala password to attempt a login to the website with your credentials and at last you have to mention the job_category which you want to search and to acquire details in csv, json or xml formats.
 
-This project is only meant for educational purposes.
-
 ## Extracted data
 This project extracts Internship job data, combined with the respective rows Company name, Job location, duration, stipend, Last date to apply for a job and extracted url for the job. The extracted data looks like this:
 ```
@@ -33,5 +31,5 @@ If you want to save the scraped data to a file, you can pass the -o argument opt
 '''
 ## Configuration of databases, check pipelines.py file
 SQLite database file will be generated name 'datajobs' in root folder where scrapy.cfg file. And, you can easily access SQLite databse file through online, Go to https://sqliteonline.com/ from here you can access the datajobs file.
-
-## Configuration and integeration of MySQL databases with this program. You will find MySQL Pipeline folder which contains two files(pipelines.py and settings.py), you need to replace the pipelines.py file and settings.py from the project folder.
+```
+## Configuration and integeration of MySQL database with this program. You will find MySQLIntegeration-Settings folder which contains two files(pipelines.py and settings.py), you need to replace the pipelines.py file and settings.py from the project folder.
