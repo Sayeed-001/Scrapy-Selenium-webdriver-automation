@@ -23,6 +23,10 @@ Url : https://internshala.com/internship/detail/market-research-analysis-interns
 ```
 ### Execution of a program:
 ```
+Packages Required:
+--> pip install scrapy
+--> pip install selenium
+
 You can run a spider using the scrapy crawl command in a command line by moving to root directory i.e where scrapy.cfg
   $ scrapy crawl internshala
   
